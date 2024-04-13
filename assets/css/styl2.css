@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+}
+nav ul {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul li{
+    list-style: none;
+    font-size: 14px;
+    
+}
+.first{
+    height: 100vh;
+    background-size: 100% 100%;
+    background-image: url(./../img/coffeehouse.jpg);
+    position: relative;
+
+}
+.first .p1{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 5px;
+    left: 10px;
+}
+.first .p2{
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    right: 10px;
+}
+.first .h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-size: 50px; 
+    text-shadow: 4px 3px 3px black;  
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 239, 243);
+   
+}
+.second .div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 30px 0;
+    height: 100%;
+    
+
+}
+
+.second .div .div1  p{
+    margin: 15px 0;
+}
+.second .div img {
+    width: 100%;
+}
+.second .div .div2{
+    background-color: rgb(235, 231, 231);
+    border-left: 5px solid gray;
+    margin: 10px 5px;
+    padding: 15px 5px;
+    
+}
+.second .div .div3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.second .div .div3 div{
+    margin: 7px 0;
+}
+.second .div .button{
+   width: 100%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: space-around;
+   
+}
+.second .div .button button{
+    
+    width: 350px;
+    margin: 5px 0;
+}
+.second .div .button .eat{
+    background-color: gray;
+    border-style: none;
+}
+.second .div .button .drink{
+    border-style: none;
+    background-color: white;
+}
+.second .div .button{
+    background-color: white;
+    border-style: none;
+    box-shadow: 2px 2px 7px 1px  rgb(146, 146, 146);
+    margin-top: 10px;
+}
+.second .div .about{
+    width: 100%;
+    padding:14px 0;
+    display: flex;
+    align-items: start;
+    box-shadow: 2px 2px 7px 1px rgb(146, 146, 146);
+    flex-direction: column;
+    
+}
+
+.second .div .about div{
+    margin: 18px 6px;
+}
+.second .div .about div h4{
+    margin: 14px 0;
+}
+.second .div .about div p{
+    color: rgb(110, 110, 110);
+}
+.second .div  img{
+    margin: 20px 0px;
+    width: 100;
+}
+.second .div  .h4{
+    margin: auto ;
+    color: white;
+    background-color: black;
+    width: max-content;
+    padding: 5px;
+
+    
+}
+.second .div .find-us p{
+    margin-top: 35px;
+
+}
+.second .div .span{
+    background-color: black;
+    color: white;
+    padding: 0 3px;
+    margin-right: 3px ;
+}
+.second .div p{
+    font-size: 14px;
+}
+.second .div .Reserve{
+   width: 100%;
+   margin: 8px 8px;
+}
+.second .div .label{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    
+}
+.second .div .label input{
+    margin: 10px 0;
+    padding: 10px 4px;
+
+}
+.second .div .a{
+    text-align: start;
+    width: 100%;
+}
+.second .div .a .b{
+    color: white;
+    background-color: black;
+    border-style: none;
+    padding: 5px 5px;
+}
+  .footer{
+    background-color: rgb(219, 218, 218) ;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .footer a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
